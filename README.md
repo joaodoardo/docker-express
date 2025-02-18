@@ -40,12 +40,16 @@ Certifique-se de ter instalado em sua máquina:
    ```sh
    docker-compose up -d
    ```
-
-3. **Acesse a aplicação:**
+3. **Para reconstruir as imagens e garantir que tudo está atualizado, use:
+    ```sh
+    docker-compose up --build
+    ```
+    
+4. **Acesse a aplicação:**
    O servidor estará rodando em:  
    👉 `http://localhost:3000`
 
-4. **Parar os contêineres:**
+5. **Parar os contêineres:**
    ```sh
    docker-compose down
    ```
@@ -56,4 +60,7 @@ Certifique-se de ter instalado em sua máquina:
 - Luiz Felipe
 
 ---
+##✅Referências✅##
+Erick Wendel https://www.youtube.com/watch?v=Bp2bU6fQcSo
+Rocketseat https://www.youtube.com/watch?v=AVNADGzXrrQ
 
